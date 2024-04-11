@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 25px;">Signup</div>
+
+        <div>
+            Name <br>
+            <input class="js-first-name" style="font-size: 18px;" type="text" placeholder="First">
+            <input class="js-last-name" style="font-size: 18px;" type="text" placeholder="Last">
+        </div>
+        <div>
+            Username <br>
+            <input class="input js-user-name" type="text" >
+        </div>
+        <div>
+            Create your password <br>
+            <input class="input js-password" type="password" >
+        </div>
+        <div>
+            Confirm your password <br>
+            <input class="input js-cnfPassword" type="password" >
+        </div>
+        
+        <div>
+            Mobile Number <br>
+            <input class="input js-mob-no" type="tel" value="">
+        </div>
+        <div class="physical-attributes">
+            <div class="attributes">
+                Age<br>
+                <input class="pinput js-age" type="number">
+            </div>
+            <div class="attributes">
+                Height (cm)<br>
+                <input class=" pinput js-height" type="number">
+
+            </div>
+            <div class="attributes">
+                Weight (Kg)<br>
+                <input class="pinput js-weight" type="number">
+            </div>
+            <div class="attributes">
+                Activity<br>
+                <select class="js-activity activity">
+                <option selected value="light">light</option>
+                <option value="moderate">moderate</option>
+                <option value="high">high</option>
+                </select>
+            </div>  
+            <div>
+                Sex<br>
+                <select class="activity js-sex">
+                <option selected value="male">Male</option>
+                <option value="female">Female</option>
+                </select>
+            </div>
+            <div  >
+                Goal<br>
+                <select class="activity js-goal">
+                <option selected value="cut">Cut</option>
+                <option value="maintain">Maintain</option>
+                <option value="bulk">Bulk</option>
+                </select>
+            </div>
+
+        </div>
+
+        
+        <button class="submit-button js-submit-btn">Submit</button>
+
+        <div>_______________OR_______________</div>
+        <a href="./login.html">
+            <button class="login-btn">Login</button>
+        </a>
+        
+    </div>
+</body>
+<!-- <script src="./data/user_info.js"></script> -->
+<script type="module" src="./Scripts/signup.js"></script>
+</html>

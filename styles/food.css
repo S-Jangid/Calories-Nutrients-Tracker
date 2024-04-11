@@ -1,0 +1,101 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1500px) {
+    .container
+    {
+        grid-template-columns: 1fr ;
+    }
+    
+}
+
+
+.item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    border: solid grey 2px;
+    padding: 20px 0px 20px 20px;
+    align-items: center;
+}
+
+h1
+{
+    margin: 0px;
+    display: inline;
+}
+
+
+.img
+{
+    width: 250px;
+    height: 166.72px;
+    border-radius: 10px ;
+    /* height: 50px; */
+}
+
+.nutrients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nutrients img {
+    flex: 1;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.classified-nutrients 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 47px 0px 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.classified-nutrients div
+{
+    flex: 1;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.food-quantity{
+   padding: 10px 0px;
+}
+
+.item-description{
+    display: grid;
+    grid-template-rows: 55px 55px 1fr;
+    row-gap: 35px;
+
+}
+
+span
+{
+    display: grid;
+}
+
+.calories
+{
+    display: inline;
+}
+
+.interaction
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 380px; */
+}
+
+.add-btn
+{
+    cursor: pointer;
+    margin-right: 50px;
+}

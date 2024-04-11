@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Total Health</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <nav>
+    </nav>
+    <div>
+        <div class="header">
+            <div class="profile">
+                <div class="js-pfp pfp">
+                    S                 
+                </div>
+                <div class="js-pname">
+                    Shubham jangid
+                </div>
+            </div>
+            
+            <div class="js-calories calorie-display">
+
+                <div class="nutritions">
+                    <div class="js-protein">
+                        Protein: 0                 
+                    </div>
+                    <div class="js-carbs">
+                        Carbs: 0
+                    </div>
+                    <div class="js-fat">
+                        Fat: 0
+                    </div>
+                    <div class="js-fiber">
+                        Fiber: 0
+                    </div>
+                </div>
+
+                <div>
+                    <div class="js-consumed">
+                        Total consumed calories
+                    </div>
+    
+                    <div class="js-to-be-consumed">
+                        Total intake calories
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="meal-container">
+                <div class="meal-header">
+                    <div class="breakfast">
+                        Breakfast
+                    </div>
+                    <div>
+                        <div class="js-bft-calories meal-calories">
+                            calCount
+                        </div>
+                        <a href="food.html" target="">
+                            <button class="add-btn" onclick="addCategory(`breakfast`)" >Add</button>
+                        </a>
+                    </div>   
+                </div>
+                <div class="js-breakfast-items items">
+                    <!-- <div class="item">
+                        <div>
+                            <img src="./images/brown_bread.jpeg" alt="">
+                        </div>
+                        <div>
+                            Brown bread
+                        </div>
+                        <div>
+                            160(2)
+                            <button>Delete</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="./images/cheese.jpg" alt="">
+                        </div>
+                        <div>
+                            Cheese
+                        </div>
+                        <div>
+                            110(1)
+                            <button>Delete</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="./images/milk.jpg" alt="">
+                        </div>
+                        <div>
+                            Milk
+                        </div>
+                        <div>
+                            103(1)
+                            <button>Delete</button>
+                        </div> 
+                    </div> -->
+                </div>
+            </div>
+            <div class="meal-container">
+                <div class="meal-header">
+                    <div class="lunch">
+                        Lunch
+                    </div>
+                    <div>
+                        <div class="js-lh-calories meal-calories">
+                            calCount
+                        </div>
+                        <a href="food.html">
+                            <button class="add-btn" onclick="addCategory(`lunch`)">Add</button>
+                        </a>
+                    </div>   
+                </div>
+                <div class="js-lunch-items items">
+ 
+                </div>
+            </div>
+            <div class="meal-container">
+                <div class="meal-header">
+                    <div class="snacks">
+                        Snacks
+                    </div>
+                    <div>
+                        <div class="js-ss-calories meal-calories">
+                            calCount
+                        </div>
+                        <a href="food.html">
+                            <button class="add-btn" onclick="addCategory(`snacks`)">Add</button>
+                        </a>
+                    </div>   
+                </div>
+                <div class="js-snacks-items items">
+
+                </div>
+            </div>
+            <div class="meal-container">
+                <div class="meal-header">
+                    <div class="dinner">
+                        Dinner
+                    </div>
+                    <div>
+                        <div class="js-dr-calories meal-calories">
+                            calCount
+                        </div>
+                        <a href="food.html">
+                            <button class="add-btn" onclick="addCategory(`dinner`)">Add</button>
+                        </a>
+                    </div>   
+                </div>
+                <div class="js-dinner-items items">
+
+                </div>
+            </div>
+        </div>
+        <script  src="./scripts/category.js" ></script>
+</body>
+<script type="module" src="./scripts/categorize.js"></script>
+<script type="module" src="main.js"></script>
+</html>

@@ -1,0 +1,114 @@
+
+.main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.header{
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calorie-display
+{
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    text-align: justify;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.pfp
+{   
+    width: 88px;
+    background-color: rgb(4, 156, 156);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 25px;    
+    border-radius: 44px;
+    margin-right: 20px;
+}
+
+.nutritions
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutritions div
+{
+    margin-right: 20px;
+    vertical-align: middle;
+    padding-top: 8px;
+
+}
+
+.meal-header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+
+}
+
+.meal-container{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    min-height: 250px;
+    border-radius: 10px;
+
+}
+.add-btn
+{
+    cursor: pointer;
+}
+
+.lunch-items
+{
+    display: grid;
+    grid-template-columns: 400px;
+
+}
+
+.item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.item img
+{
+    width: 50px;
+    height: 37.45px;
+    border-radius: 5px;
+    
+}
+
+.delete-btn
+{
+    cursor: pointer;
+}
+
+.meal-calories
+{
+    display: inline-block;
+}

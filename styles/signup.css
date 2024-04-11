@@ -1,0 +1,73 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    /* background-color: rgb(237, 248, 226); */
+    
+}
+
+
+.container
+{
+    margin-top: 100px ;
+    width: 500px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 500px;
+    justify-items: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    /* background-color: rgb(209, 238, 179); */
+    padding-bottom: 40px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.input{
+    width: 450px;
+    font-size: 18px;
+    
+}
+
+.submit-button
+{
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.login-btn  
+{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+
+}
+
+.physical-attributes
+{
+    width: 458px;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    justify-content: space-between;
+}
+
+.pinput
+{
+    width: 200px;
+}
+
+.activity
+{
+    width: 208px;
+    font-size: 17px;
+}
+/* 
+.attributes
+{
+    text-align: center;
+} */

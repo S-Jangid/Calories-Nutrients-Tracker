@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'arial';
+  }
+  
+  .nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+  }
+  
+  .nav>.nav-header {
+    display: inline;
+  }
+  
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    background-image: url("../images/initial-th-letter-logo-design-2988752.jpg");
+    background-size: cover;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+  
+  }
+  
+  .nav>.nav-btn {
+    display: none;
+  }
+  
+  .nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 40px 13px 10px;
+    text-decoration: none;
+    color: rgb(53, 177, 0);
+    height: 60px;
+  }
+  
+  .nav>.nav-links>a:hover {
+    border-bottom: 3.5px solid rgb(205, 28, 28);
+  }
+  
+  .nav>#nav-check {
+    display: none;
+  }
+  
+  
+  @media (max-width:630px) {
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 60px;
+      padding: 13px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid black;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #ccc;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  
+    main .content {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://thumbs.dreamstime.com/z/prescription-good-health-diet-exercise-flat-lay-overhead-prescription-good-health-overhead-stethoscope-healthy-147543343.jpg?w=576");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 900px;
+      /* align-items: center; */
+      justify-content: flex-end;
+    }
+  
+  }
+  
+  
+  .content {
+    /* background-color: red; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://thumbs.dreamstime.com/z/super-food-good-health-concept-fresh-fruit-vegetables-chinese-herbal-medicine-selection-foods-high-anthocyanins-110964883.jpg?w=992");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+  }
+  
+  .content1 {
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    margin-left: 100px;
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    align-items: center;
+  }
+  
+  .content1 p {
+    margin-top: 25px;
+  }
+
+  .content1 button {
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content1 .start:hover {
+    background-color: green;
+  }
+  
