@@ -26,7 +26,7 @@ function verify() {
         let f = matchingItem.fName;
         let l = matchingItem.lName;
         setValue(f,l);
-        window. location. href ="../main.html";
+        window. location. href ="main.html";
         localStorage.setItem('fName')
     }
     else
